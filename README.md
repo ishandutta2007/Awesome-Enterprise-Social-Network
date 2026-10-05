@@ -1,80 +1,137 @@
-# Awesome-Enterprise-Social-Network
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Social-Network/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Enterprise-Social-Network?style=flat-square&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Social-Network/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Enterprise-Social-Network?style=flat-square&color=blue" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Social-Network/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Enterprise-Social-Network?style=flat-square&color=green" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
-*Focused on Internal Communications, Employee Engagement, Knowledge Sharing & Digital Workplace*
-**Last updated: October 2026**
+![Awesome Enterprise Social Network Banner](assets/banner.svg)
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Enterprise Social Networks**. These tools help organizations connect employees, streamline internal communications, share knowledge, and build digital workplace experiences that engage both desk-based and frontline workers.
+# 🌐 Awesome Enterprise Social Network 🚀
 
-**Examples** include Microsoft Viva Engage, Slack, Workplace from Meta (closing 2026), Workvivo, Jostle, MangoApps, Igloo Software, Staffbase, Simpplr, and LumApps (the category leaders).
-
-**Open-source emphasis**: The open-source enterprise social network ecosystem is **mature and production-proven**. **HumHub** is the leading open-source enterprise social network with **6.7k+ stars**, GDPR-by-construction architecture, unlimited Spaces, and **~80 modules** including Wiki, Calendar, Polls, Tasks, and SSO . **eXo Platform** provides a full-featured digital workplace with activity streams, document management, and content publishing . **Zulip** offers unique topic-based threading for async-first distributed teams with **no message or user limits** . This section documents these production-grade solutions.
-
-## 📖 Table of Contents
-
-- [☁️ SaaS/Hosted Platforms](#-saas-hosted-platforms)
-- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
-- [🤝 How to Contribute](#how-to-contribute)
-- [⚠️ Disclaimer](#-disclaimer)
-
-## ☁️ SaaS/Hosted Platforms
-
-> **📊 Market Context**: The global enterprise social network and digital workplace market is estimated at **~$10B in 2026**, growing toward **~$25B by 2032**. The sector is **moderately fragmented** — **Microsoft Viva Engage** (formerly Yammer) leverages Microsoft 365 distribution with **core features included in E1/E3/E5/F1/F3 and Business Premium at no additional cost**, while premium features require **Communities Premium at $2/user/month** or **Viva Suite at $12/user/month** . **Workplace from Meta is closing in 2026** — access terminated June 1, 2026, with **Workvivo by Zoom** as Meta's only preferred migration partner . **Chatter** is **turned off by default in all new Salesforce orgs beginning Summer '26** . **Staffbase** pricing runs **$8–$15 per employee annually** for mid-market, with minimum contracts of **$25,000–$40,000** . **Jostle** starts at **$990/year for 25 users** (Basic) . No single vendor holds a winner-take-all position; enterprises typically run multi-vendor stacks.
-
-| Platform | Description | Pricing (Starting Tier) | Free Tier Limits | Company Size |
-|----------|-------------|------------------------|------------------|--------------|
-| **[Microsoft Viva Engage](https://www.microsoft.com/en-us/microsoft-viva/engage)** | **Microsoft's enterprise social network (formerly Yammer).** Communities, Storyline, Leadership Corner, and AI-powered Answers in Viva . | **Core included with Microsoft 365 E1/E3/E5/F1/F3/Business Premium** at no additional cost. **Communities Premium**: **$2/user/month**. **Viva Suite**: **$12/user/month** . | **Included with M365 E1/E3/E5/F1/F3/Business Premium**. **M365 F1 (kiosk) does NOT include Viva Engage Core** — requires F3 minimum . | **~$281B revenue (Microsoft FY2025)**  |
-| **[Slack](https://slack.com/)** | **The category-defining team messaging platform.** Channels, direct messages, integrations with 2,600+ apps. | **Free**: $0; **Pro**: **$8.75/user/month** (annual); **Business+**: **$15/user/month**; **Enterprise Grid**: Custom. | **Free tier**: **90-day message history**, 10 app integrations, 1:1 huddles . | **Part of Salesforce (~$37.9B revenue)** |
-| **[Workvivo](https://www.workvivo.com/)** | **Meta's only preferred migration partner for Workplace.** Employee experience platform combining intranet with social-style engagement . | **Custom enterprise pricing** — quote required. | **None** — enterprise demo required. | **Part of Zoom (~$4.5B revenue est.)** |
-| **[Staffbase](https://staffbase.com/)** | **AI-native employee experience platform for all employees.** Mobile-first, strong for frontline workers . | **$8–$15 per employee annually** for mid-market. **Minimum contract**: **$25,000–$40,000** . | **None** — enterprise demo required. | **Private (~$500M+ valuation est.)** |
-| **[Jostle](https://www.jostle.me/)** | **Intranet platform focused on employee connection.** People directory, news, and team collaboration. | **Basic**: **$990/year** (25 users). **Standard**: **$1,490/year**. **Pro**: **$2,990/year** . | **Free trial** available. | **Private (~$10M+ revenue est.)** |
-| **[MangoApps](https://www.mangoapps.com/)** | **Unified employee experience platform.** Intranet, team collaboration, and frontline tools. | **$299/month** (25 users included) . | **Free trial** available. | **Private (~$50M+ revenue est.)** |
-| **[Igloo Software](https://www.igloo software.com/)** | **Digital workplace platform.** Internal communications, collaboration, and knowledge management. | **Custom enterprise pricing** — quote required. | **None** — enterprise demo required. | **Private (~$100M+ revenue est.)** |
-| **[Simpplr](https://www.simpplr.com/)** | **AI-powered employee experience platform.** Intranet, internal communications, and enterprise search. | **Custom enterprise pricing** — quote required. | **None** — enterprise demo required. | **Private (~$100M+ ARR est.)** |
-| **[LumApps](https://www.lumapps.com/)** | **Digital workplace platform.** Aligns with brand guidelines and streamlines workflows. | **Custom enterprise pricing** — quote required. | **None** — enterprise demo required. | **Private (~$100M+ raised)** |
-| **[Workplace from Meta](https://forwork.meta.com/meta-workplace/)** | **CLOSING IN 2026.** Enterprise social network. | **N/A** — **closing June 1, 2026**. Data export available until May 31, 2026 . | **N/A** — service terminating. | **Part of Meta (~$165B revenue)** |
-
-## 🔓 Open-Source GitHub Projects
-
-| Repo | Description | Stars |
-|------|-------------|-------|
-| **[HumHub](https://github.com/humhub/humhub)** — **The leading open-source enterprise social network.** **GDPR by construction** — German-made, self-hosted, member data never touches a third-party platform . **Four core concepts**: Users (rich profiles with follows), **Spaces** (rooms for departments/projects with per-Space permissions, notifications, email summaries), **Content** (posts, wiki pages, photos/video, events, tasks with threaded comments, versioning, moderation), and **Modules** (~80 install-and-activate extensions including Calendar, Wiki, Polls, Tasks, Gallery, News, Mail, OnlyOffice, Advanced LDAP, SAML/JWT SSO, RESTful API, mass user import, Translation Manager, Theme Builder) . **LAMP stack** (PHP 8.1+, MySQL/MariaDB) — one of the easiest platforms to operate long-term . **6.7k stars, 1.7k forks, actively maintained** . | [![Stars](https://img.shields.io/github/stars/humhub/humhub?style=social&color=white)](https://github.com/humhub/humhub/stargazers) | ~6,700 |
-| **[eXo Platform](https://github.com/exoplatform/platform)** — **The leading open-source digital collaboration platform.** **20+ years of development**, 100s of enterprise deployments, US headquarters in San Francisco . **Enterprise-grade**: tested in production for defense agencies . **Features**: Collaboration spaces, document storage, project management, content management with publication lifecycles, **enterprise social network** (find/connect/interact with colleagues), **activity streams** (tailored feeds and notifications), **knowledge management** (wikis, forums, search), single access point for all business apps, and **mobile access** . **AGPL-3.0** . | [![Stars](https://img.shields.io/github/stars/exoplatform/platform?style=social&color=white)](https://github.com/exoplatform/platform/stargazers) | ~1,500 |
-| **[Zulip](https://github.com/zulip/zulip)** — **Best for distributed, async-first teams.** **Unique topic-based threading** keeps conversations organized by subject rather than time — ideal for teams across time zones . **No message limits, no user limits**, well-documented self-hosting . **Tradeoff**: UX has a learning curve; mobile apps are functional but not the strongest . **Best for**: Distributed teams willing to invest a week to adapt to the topic model . | [![Stars](https://img.shields.io/github/stars/zulip/zulip?style=social&color=white)](https://github.com/zulip/zulip/stargazers) | ~24,000 |
-| **[Mattermost](https://github.com/mattermost/mattermost)** — **Open-source Slack alternative with unlimited history.** **Team Edition**: Free, unlimited messages, capped at **250 activated users** . **Push notifications**: TPNS (Test Push Notification Service) is documented as **not recommended for production** with no production-grade SLA; paid deployments can use HPNS . **Best for**: Teams wanting open-source control, unlimited history, and no SSO requirement . | [![Stars](https://img.shields.io/github/stars/mattermost/mattermost?style=social&color=white)](https://github.com/mattermost/mattermost/stargazers) | ~35,000 |
-| **[Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)** — **Easiest free self-hosted Slack-like option for small teams.** **Starter**: Free for small teams under 50 users in 2026 . Push notifications route through provider-managed gateways . **Best for**: Small teams wanting the simplest free self-hosted Slack alternative . | [![Stars](https://img.shields.io/github/stars/RocketChat/Rocket.Chat?style=social&color=white)](https://github.com/RocketChat/Rocket.Chat/stargazers) | ~42,000 |
-| **[NodeBB](https://github.com/NodeBB/NodeBB)** — **Modern forum platform with real-time discussions.** Built-in chat, SSO options, plugins, and flexible theming. Backed by Redis, MongoDB, or PostgreSQL. **GPL-3.0** . | [![Stars](https://img.shields.io/github/stars/NodeBB/NodeBB?style=social&color=white)](https://github.com/NodeBB/NodeBB/stargazers) | ~15,200 |
-| **[Apache Answer](https://github.com/apache/answer)** — **Open-source Q&A platform for teams.** Build knowledge bases, forums, and help centers. **Apache-2.0**, 15.7k stars, actively maintained . | [![Stars](https://img.shields.io/github/stars/apache/answer?style=social&color=white)](https://github.com/apache/answer/stargazers) | ~15,700 |
-| **[Loomio](https://github.com/loomio/loomio)** — **Collaborative decision-making tool.** Group discussions, proposals, and polls with transparent async decision records. **AGPL-3.0** . | [![Stars](https://img.shields.io/github/stars/loomio/loomio?style=social&color=white)](https://github.com/loomio/loomio/stargazers) | ~2,600 |
-| **[Elgg](https://github.com/Elgg/Elgg)** — **Modular open-source social network platform.** Plugin-based extensions for building collaborative communities . | [![Stars](https://img.shields.io/github/stars/Elgg/Elgg?style=social&color=white)](https://github.com/Elgg/Elgg/stargazers) | ~1,700 |
-
-**Additional open-source options worth exploring:**
-
-| Repo | Description |
-|------|-------------|
-| **[Movim](https://github.com/movim/movim)** — Open-source social network built on XMPP. Blog, chat, and community features . |
-| **[diaspora*](https://github.com/diaspora/diaspora)** — Open-source, decentralized social network. Community-focused with privacy controls . |
-| **[OpenPNE](https://github.com/openpne/OpenPNE3)** — Japanese open-source SNS with 30,000+ community deployments . |
-| **[Campfire](https://github.com/basecamp/campfire)** — Self-hosted group chat with rooms, @mentions, and DMs. MIT licensed . |
-
-## 🤝 How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## ⚠️ Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Enterprise social networks handle sensitive employee and organizational data; ensure compliance with GDPR, CCPA, and applicable data protection regulations.
-- **Critical lifecycle notices**: **Workplace from Meta is closing in 2026** — access terminated **June 1, 2026**. Data export available until **May 31, 2026** . **Chatter is turned off by default in all new Salesforce orgs beginning Summer '26** . **Microsoft Viva Engage Core is included with M365 E1/E3/E5/F1/F3/Business Premium**, but **M365 F1 (kiosk) does NOT include it** — frontline workers need F3 minimum .
-- **Open-source reality**: The open-source ecosystem for enterprise social networks is **mature and production-proven**. **HumHub** is the leading open-source enterprise social network with **GDPR-by-construction** architecture, unlimited Spaces, and **~80 modules** . **eXo Platform** provides a full-featured digital workplace with **20+ years of development** and defense-grade deployments . **Zulip** delivers unique topic-based threading for async-first teams with **no message or user limits** . However, **commercial platforms** (Microsoft Viva Engage, Slack, Staffbase) provide **polished mobile experiences, managed infrastructure, and native compliance integration** that open-source alternatives require additional configuration to match. The open-source path is **genuinely viable** for organizations seeking data sovereignty and cost control.
-- **Important distinction**: **HumHub is NOT a Slack alternative** — it is a private social network and intranet platform, closer to an internal Facebook or employee community forum . For team messaging, **Mattermost**, **Rocket.Chat**, or **Zulip** are the appropriate open-source options .
+> **A curated, comprehensive directory of Enterprise Social Networks (ESN), Intranets, Internal Communications Platforms & Self-Hosted Open-Source Digital Workplaces.**
+> *Optimized for internal comms leaders, HR tech decision-makers, IT administrators, and digital employee experience (DEX) architects.*
 
 ---
 
-**Made for internal communications teams, HR leaders, IT administrators, and digital workplace strategists.**
-Let's make enterprise social networks more open, transparent, and engaging.
+## 📚 Table of Contents
+
+- [💡 Overview & Market Insights](#-overview--market-insights)
+- [☁️ Commercial SaaS Platforms](#️-commercial-saas-platforms)
+- [🔓 Open-Source GitHub Repositories](#-open-source-github-repositories)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [☕ Support & Sponsor](#-support--sponsor)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer & Compliance](#️-disclaimer--compliance)
+
+---
+
+## 💡 Overview & Market Insights
+
+Enterprise Social Networks (ESNs) and Digital Employee Experience (DEX) platforms connect distributed workforces, streamline executive-to-employee messaging, facilitate cross-departmental knowledge sharing, and foster culture across desk-based and frontline workers.
+
+### 📊 Sector Market Size & Dynamics
+> 📈 **Market Valuation & Growth**: The global Enterprise Social Network and Digital Workplace software market is estimated at **$10.2 Billion in 2026** and is projected to expand to **$24.8 Billion by 2032** at a Compound Annual Growth Rate (CAGR) of **15.8%**.
+> 
+> 🧩 **Market Fragmentation**: The market is **moderately fragmented**, operating as a **multi-vendor ecosystem** rather than a single winner-take-all monopoly. While **Microsoft (Viva Engage)** commands dominant distribution through Microsoft 365 licensing and **Salesforce (Slack)** leads real-time channel communication, enterprise buyers heavily adopt specialized suites like **Staffbase**, **Workvivo by Zoom**, **Simpplr**, and **MangoApps** for dedicated intranet governance and frontline engagement. Furthermore, privacy-first enterprises increasingly deploy self-hosted open-source alternatives like **Mastodon**, **Discourse**, **Rocket.Chat**, and **HumHub**.
+
+---
+
+## ☁️ Commercial SaaS Platforms
+
+Below is a curated comparison of top commercial Enterprise Social Network platforms, sorted by **Company Size (Revenue / Market Valuation) in descending order**:
+
+| Platform | Description | Pricing (Starting Tier) | Free Tier / Trial Limits | Company Size (Revenue / Valuation) 🔽 |
+| :--- | :--- | :--- | :--- | :--- |
+| 🔹 **[Microsoft Viva Engage](https://www.microsoft.com/en-us/microsoft-viva/engage)** | **Enterprise social network integrated with M365.** Features Communities, Leadership Corner, Storyline feeds, and AI Answers. | **Core included in M365 E1/E3/E5/F3** ($10–$38/user/mo). **Communities Premium**: **$2.00/user/mo**. **Viva Suite**: **$12.00/user/mo**. | **30-day M365 enterprise trial** (up to 25 user licenses with full Viva Engage access). | **~$281 Billion Revenue** *(Microsoft FY2025)* |
+| 🔹 **[Workplace from Meta](https://forwork.meta.com/meta-workplace/)** | ⚠️ **CLOSING IN 2026.** Enterprise social network built on Meta's social interface with live video, groups, and newsfeed. | **Discontinued ($4.00/user/mo prior)**. Access terminates **June 1, 2026**. | **No new trial signups**. Existing users get **data export window through May 31, 2026**. | **~$165 Billion Revenue** *(Meta)* |
+| 🔹 **[Slack](https://slack.com/)** | **Category-defining messaging & digital HQ platform.** Real-time channels, audio huddles, workflows, and 2,600+ app integrations. | **Free**: $0; **Pro**: **$8.75/user/mo** (billed annually); **Business+**: **$15.00/user/mo**; **Enterprise Grid**: Custom quote. | **Free forever plan**: **90-day message & file history**, 10 integrations, 1:1 audio huddles. | **~$37.9 Billion Revenue** *(Salesforce parent)* |
+| 🔹 **[Workvivo by Zoom](https://www.workvivo.com/)** | **Meta's only official preferred migration partner for Workplace.** Employee experience platform combining intranet feeds with social engagement. | **Custom enterprise pricing** (Typically starting **~$6.00–$8.00/user/mo** with annual commitment). | **No free forever plan**; **14-day guided sandbox/demo trial** available via sales team. | **~$4.5 Billion Revenue** *(Zoom Video Comms)* |
+| 🔹 **[Staffbase](https://staffbase.com/)** | **Employee experience & internal comms platform.** Mobile-first intranet and branded employee apps tailored for frontline workers. | **$8.00–$15.00 per employee/year** (~$0.67–$1.25/mo). **Minimum contract**: **$25,000/year**. | **No free forever plan**; **14-day customized demo environment** available upon request. | **~$1.1 Billion Valuation** *(Series E Unicorn)* |
+| 🔹 **[Simpplr](https://www.simpplr.com/)** | **AI-native intranet & digital employee experience suite.** Automated content governance, personalized newsfeeds, and smart search. | **Custom enterprise tiers** (Starting **~$8.00–$12.00/user/mo**; min contract ~$10,000/yr). | **No free forever plan**; **14-day sales-assisted trial** available upon qualified request. | **~$500 Million Valuation** *($131M raised)* |
+| 🔹 **[LumApps](https://www.lumapps.com/)** | **Intranet & employee engagement platform.** Seamless integration with Google Workspace and Microsoft 365. | **Custom enterprise pricing** (Starting **~$6.00–$10.00/user/mo** based on seat count). | **No free forever plan**; **30-day proof-of-concept trial** offered for qualified enterprise pilots. | **~$300 Million Valuation** *($100M+ funding)* |
+| 🔹 **[Igloo Software](https://www.igloosoftware.com/)** | **Digital workplace solutions.** Internal communications, knowledge management hubs, and team collaboration portals. | **Custom enterprise tiers** (Starting **~$3.00–$6.00/user/mo** with minimum user thresholds). | **No free forever plan**; **14-day full-featured trial** available for registered organizations. | **~$100 Million Revenue** *(Private est.)* |
+| 🔹 **[MangoApps](https://www.mangoapps.com/)** | **Unified employee workplace platform.** Combines intranet, team messaging, learning management, and frontline tools. | **$299.00/month flat fee** (Includes up to 25 users; additional seats ~$12.00/user/mo). | **14-day free trial** with full platform feature access (no credit card required). | **~$50 Million Revenue** *(Private est.)* |
+| 🔹 **[Jostle](https://www.jostle.me/)** | **People-centric employee intranet.** News distribution, org charts, task tracking, and cultural engagement modules. | **Basic**: **$990.00/year** (up to 25 users); **Standard**: **$1,490.00/year**; **Pro**: **$2,990.00/year**. | **14-day free trial** covering full intranet, directory, and news features. | **~$10 Million Revenue** *(Private est.)* |
+
+---
+
+## 🔓 Open-Source GitHub Repositories
+
+Self-hosted open-source software provides enterprise data sovereignty, GDPR compliance by design, custom extensibility, and zero vendor lock-in.
+
+Below is the complete list of top open-source Enterprise Social Networks, forums, and team collaboration platforms, sorted by **GitHub Star Count in descending order**:
+
+| Repository | Description | Tech Stack | License | GitHub Stars 🔽 |
+| :--- | :--- | :--- | :--- | :--- |
+| 🐘 **[Mastodon](https://github.com/mastodon/mastodon)** | **Federated microblogging & decentralized social platform.** Used by enterprises and communities for internal/external decentralized communications via ActivityPub. | Ruby, Node.js, PostgreSQL | AGPL-3.0 | [![Stars](https://img.shields.io/github/stars/mastodon/mastodon?style=social&color=white)](https://github.com/mastodon/mastodon/stargazers) |
+| 💬 **[Discourse](https://github.com/discourse/discourse)** | **Modern community & internal discussion platform.** Built-in chat, long-form discussion threads, SSO integration, and enterprise moderation tools. | Ruby on Rails, Ember.js, PostgreSQL | GPL-2.0 | [![Stars](https://img.shields.io/github/stars/discourse/discourse?style=social&color=white)](https://github.com/discourse/discourse/stargazers) |
+| 🚀 **[Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)** | **Enterprise team collaboration & omni-channel messaging platform.** Matrix interoperability, audio/video conferencing, and compliance controls. | TypeScript, Node.js, MongoDB | MIT | [![Stars](https://img.shields.io/github/stars/RocketChat/Rocket.Chat?style=social&color=white)](https://github.com/RocketChat/Rocket.Chat/stargazers) |
+| 🪵 **[Mattermost](https://github.com/mattermost/mattermost)** | **Self-hosted Slack alternative for secure team messaging.** Unlimited message history, playbook automation, and developer toolchain integration. | Go, React, PostgreSQL | AGPL-3.0 | [![Stars](https://img.shields.io/github/stars/mattermost/mattermost?style=social&color=white)](https://github.com/mattermost/mattermost/stargazers) |
+| ⚡ **[Zulip](https://github.com/zulip/zulip)** | **Async-first team chat with unique topic-based threading.** Organizes conversations by subject to prevent chat noise in distributed teams. | Python, Django, PostgreSQL, JavaScript | Apache-2.0 | [![Stars](https://img.shields.io/github/stars/zulip/zulip?style=social&color=white)](https://github.com/zulip/zulip/stargazers) |
+| 💡 **[Apache Answer](https://github.com/apache/answer)** | **Open-source Q&A community platform.** Enterprise knowledge base, developer forums, and expert help centers. | Go, React, SQLite/MySQL | Apache-2.0 | [![Stars](https://img.shields.io/github/stars/apache/answer?style=social&color=white)](https://github.com/apache/answer/stargazers) |
+| 🟢 **[NodeBB](https://github.com/NodeBB/NodeBB)** | **Real-time Node.js forum & internal community software.** Instant notifications, modern social feeds, and plugin marketplace. | Node.js, Redis, MongoDB | GPL-3.0 | [![Stars](https://img.shields.io/github/stars/NodeBB/NodeBB?style=social&color=white)](https://github.com/NodeBB/NodeBB/stargazers) |
+| 🐀 **[Lemmy](https://github.com/LemmyNet/lemmy)** | **Federated link aggregator & community forum.** Self-hosted, privacy-conscious alternative to Reddit & enterprise discussion boards. | Rust, Actix, PostgreSQL | AGPL-3.0 | [![Stars](https://img.shields.io/github/stars/LemmyNet/lemmy?style=social&color=white)](https://github.com/LemmyNet/lemmy/stargazers) |
+| ✳️ **[diaspora*](https://github.com/diaspora/diaspora)** | **Privacy-aware, decentralized social network.** Distributed pods with user privacy controls and custom social feeds. | Ruby on Rails, MySQL/PostgreSQL | AGPL-3.0 | [![Stars](https://img.shields.io/github/stars/diaspora/diaspora?style=social&color=white)](https://github.com/diaspora/diaspora/stargazers) |
+| 🌐 **[Element Web](https://github.com/element-hq/element-web)** | **Matrix collaboration client.** End-to-end encrypted messaging, voice/video calls, and decentralized cross-org communication. | TypeScript, React, Matrix | Apache-2.0 | [![Stars](https://img.shields.io/github/stars/element-hq/element-web?style=social&color=white)](https://github.com/element-hq/element-web/stargazers) |
+| 🔮 **[Matrix Synapse](https://github.com/matrix-org/synapse)** | **Reference homeserver implementation for the Matrix protocol.** Powers decentralized enterprise messaging networks. | Python, Twisted, PostgreSQL | Apache-2.0 | [![Stars](https://img.shields.io/github/stars/matrix-org/synapse?style=social&color=white)](https://github.com/matrix-org/synapse/stargazers) |
+| 🧡 **[HumHub](https://github.com/humhub/humhub)** | **The leading open-source enterprise social network & intranet.** Spaces, user profiles, rich wiki, task management, and 80+ modules. | PHP, Yii2, MySQL/MariaDB | AGPL-3.0 | [![Stars](https://img.shields.io/github/stars/humhub/humhub?style=social&color=white)](https://github.com/humhub/humhub/stargazers) |
+| 🤝 **[Loomio](https://github.com/loomio/loomio)** | **Collaborative decision-making platform.** Async polls, proposals, consent voting, and clear decision records for teams. | Ruby on Rails, Vue.js, PostgreSQL | AGPL-3.0 | [![Stars](https://img.shields.io/github/stars/loomio/loomio?style=social&color=white)](https://github.com/loomio/loomio/stargazers) |
+| 📱 **[Movim](https://github.com/movim/movim)** | **Decentralized XMPP-based social network.** Internal blogging, real-time channels, video calls, and rich microblogging. | PHP, XMPP, WebSocket | AGPL-3.0 | [![Stars](https://img.shields.io/github/stars/movim/movim?style=social&color=white)](https://github.com/movim/movim/stargazers) |
+| 🗣️ **[Talkyard](https://github.com/debiki/talkyard)** | **Unified community discussion platform.** Combines Q&A, blog comments, chat rooms, and forum threads in one tool. | Scala, React, PostgreSQL | AGPL-3.0 | [![Stars](https://img.shields.io/github/stars/debiki/talkyard?style=social&color=white)](https://github.com/debiki/talkyard/stargazers) |
+| 👥 **[Friendica](https://github.com/friendica/friendica)** | **Decentralized social communications platform.** Connects with ActivityPub, Matrix, and email for multi-channel team updates. | PHP, MySQL/MariaDB | AGPL-3.0 | [![Stars](https://img.shields.io/github/stars/friendica/friendica?style=social&color=white)](https://github.com/friendica/friendica/stargazers) |
+| 🐘 **[Elgg](https://github.com/Elgg/Elgg)** | **Modular social networking engine.** Highly customizable plugin framework for building corporate intranets and social networks. | PHP, MySQL | GPL-2.0 | [![Stars](https://img.shields.io/github/stars/Elgg/Elgg?style=social&color=white)](https://github.com/Elgg/Elgg/stargazers) |
+| 🌸 **[OpenPNE](https://github.com/openpne/OpenPNE3)** | **Enterprise social network platform.** Popular in enterprise communities with user profiles, message boards, and activity logs. | PHP, Symfony, MySQL | Apache-2.0 | [![Stars](https://img.shields.io/github/stars/openpne/OpenPNE3?style=social&color=white)](https://github.com/openpne/OpenPNE3/stargazers) |
+| 🏗️ **[eXo Platform](https://github.com/exoplatform/platform)** | **Digital collaboration & intranet solution.** Enterprise document management, activity streams, and team spaces. | Java, Spring, PostgreSQL | AGPL-3.0 | [![Stars](https://img.shields.io/github/stars/exoplatform/platform?style=social&color=white)](https://github.com/exoplatform/platform/stargazers) |
+
+---
+
+## 🤝 How to Contribute
+
+Contributions from internal comms specialists, enterprise architects, and open-source enthusiasts are warmly welcome! 
+
+1. **Fork** the repository 🍴
+2. **Create a new branch**: `git checkout -b add-new-platform`
+3. **Add/Edit entries**: Ensure you update both SaaS or Open-Source sections following the established table structure.
+4. **Commit your changes**: `git commit -m "Add [Platform Name] to ESN directory"`
+5. **Push to the branch**: `git push origin add-new-platform`
+6. **Open a Pull Request** 🚀
+
+Please ensure all added repositories conform to the **[Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)** quality standard guidelines!
+
+---
+
+## ☕ Support & Sponsor
+
+If you find this repository helpful for evaluating Enterprise Social Networks, digital workplace software, or open-source solutions, please consider supporting the project!
+
+- ⭐ **Star this repository** on GitHub to increase visibility.
+- 🔀 **Fork it** to customize lists for your organizational needs.
+- 📢 **Share** with your HR tech, IT, and internal comms peers.
+- ☕ **Sponsor the Maintainer**: Support ongoing curation and open-source research via [GitHub Sponsors](https://github.com/sponsors/ishandutta2007).
+
+<a href="https://github.com/sponsors/ishandutta2007">
+  <img src="https://img.shields.io/badge/Sponsor-❤️-ff69b4?style=for-the-badge&logo=github" alt="Sponsor on GitHub" />
+</a>
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Enterprise-Social-Network&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Enterprise-Social-Network&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer & Compliance
+
+- **Community-Curated Directory**: This list is independently curated for research and evaluation purposes. It does not constitute a formal product endorsement.
+- **Data Protection & GDPR Compliance**: ESNs handle sensitive internal communications and employee metadata. Verify that candidate platforms adhere to GDPR, CCPA, SOC 2 Type II, and enterprise security policies.
+- **Service Lifecycles**: Note that **Workplace from Meta is sunsetting on June 1, 2026** (data exports valid through May 31, 2026). Ensure migration planning is initiated promptly if affected.
+
+---
+
+<p align="center">
+  Made with ❤️ for Internal Comms Teams, Digital Workplace Strategists, and IT Administrators worldwide.
+</p>
