@@ -1,7 +1,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Social-Network/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Enterprise-Social-Network?style=flat-square&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Social-Network/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Enterprise-Social-Network?style=flat-square&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Social-Network/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Enterprise-Social-Network?style=flat-square&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Social-Network/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Enterprise-Social-Network?style=flat-square&color=green" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -62,9 +62,9 @@ Below is a curated comparison of top commercial Enterprise Social Network platfo
 
 Self-hosted open-source software provides enterprise data sovereignty, GDPR compliance by design, custom extensibility, and zero vendor lock-in.
 
-Below is the complete list of top open-source Enterprise Social Networks, forums, and team collaboration platforms, sorted by **GitHub Star Count in descending order**:
+Below is the complete list of top open-source Enterprise Social Networks, forums, and team collaboration platforms, sorted by **GitHub Stars_Count in descending order**:
 
-| Repository | Description | Tech Stack | License | GitHub Stars 🔽 |
+| Repository | Description | Tech Stack | License | GitHub_Stars 🔽 |
 | :--- | :--- | :--- | :--- | :--- |
 | 🐘 **[Mastodon](https://github.com/mastodon/mastodon)** | **Federated microblogging & decentralized social platform.** Used by enterprises and communities for internal/external decentralized communications via ActivityPub. | Ruby, Node.js, PostgreSQL | AGPL-3.0 | [![Stars](https://img.shields.io/github/stars/mastodon/mastodon?style=social&color=white)](https://github.com/mastodon/mastodon/stargazers) |
 | 💬 **[Discourse](https://github.com/discourse/discourse)** | **Modern community & internal discussion platform.** Built-in chat, long-form discussion threads, SSO integration, and enterprise moderation tools. | Ruby on Rails, Ember.js, PostgreSQL | GPL-2.0 | [![Stars](https://img.shields.io/github/stars/discourse/discourse?style=social&color=white)](https://github.com/discourse/discourse/stargazers) |
